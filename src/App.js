@@ -4,10 +4,10 @@ import { FiSettings, FiSidebar } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
-import {Stacked,Orders,Calendar,Employees,Pyramid,Customers,Kanban,Area,Bar, Pie,Financial,ColorPicker,ColorMapping,Editor, Ecommercee} from "./pages";
+import {Stacked,Orders,Calendar,Employees,Pyramid,Customers,Kanban,Area,Bar, Pie,Financial,ColorPicker,ColorMapping,Editor, Ecommercee , Line} from "./pages";
 import "./App.css";
 const App = () => {
-  const activeMenu = false;
+  const activeMenu = true;
   return (
     <div>
       <BrowserRouter>
@@ -24,7 +24,7 @@ const App = () => {
             </TooltipComponent>
           </div>
           {activeMenu ? (
-            <div className="w-72 bg-white fixed sidebar dark:bg-secondary-dark-bg ">
+            <div className="w-72 bg-white fixed sidebar  dark:bg-secondary-dark-bg ">
               <Sidebar />
             </div>
           ) : (
