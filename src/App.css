@@ -12,6 +12,9 @@
     z-index: 10000000;
   }
 }
+.bg-hero-pattern{
+  background-image: url('./data/welcome-bg.svg');
+}
 
 .e-dlg-center-center, .e-quick-popup-wrapper.e-device{
   z-index: 1000000 !important;

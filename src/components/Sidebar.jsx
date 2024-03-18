@@ -30,7 +30,7 @@ const Sidebar = () => {
               <SiShopware />
               <span>Dashify</span>
             </Link>
-            <TooltipComponent content="Menu" position="BottomCenter">
+            <TooltipComponent content="Close" position="BottomCenter">
               <button
                 type="button"
                 onClick={() =>
